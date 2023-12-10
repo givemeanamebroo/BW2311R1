@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>REGISTER Form</title>
+</head>
+
+<body>
+    <div id="container">
+        <header></header>
+        <main>
+            <div id="sidebar"></div>
+            <div id="content">
+                <h1>HTML Form</h1>
+                <table width="1100px" height="120px" id="table-1">
+                    <tr>
+                        <td>Name</td>
+
+                        <td>
+                            <form id="name">
+
+                                <input type="text" id="name" name="name" />
+                            </form>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>
+                            <form id="tel">
+
+                                <input type="tel" id="tel" name="tel" />
+                            </form>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Email</td>
+
+                        <td>
+                            <form>
+
+                                <input type="text" id="email" name="email" />
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+
+                <table height="120px" width="400px" id="table-2">
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Which taxi do you require?</legend>
+                                <form id="car"><label for="car">Car</label><input type="radio" id="taxi"></form>
+                                <br>
+                                <form id="van"><label for="van">Van</label><input type="radio" id="van"></form>
+                                <br>
+                                <form id="tuk-tuk"><label for="tuk-tuk">Tuk Tuk</label><input type="radio" id="tuk-tuk">
+                                </form>
+                                <br>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <table height="120px" width="400px" id="table-3">
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Extras</legend>
+                                <form id="baby-seat"> <label for="baby-seat">Baby Seat</label><input id="baby-seat"
+                                        type="checkbox"></form>
+                                <br>
+                                <form id="wheelchair-access"><label for="wheelchair-access">Wheelchair
+                                        Access</label><input id="wheelchair-access" type="checkbox"></form>
+                                <br>
+                                <form id="stock-tip"><label for="stock-tip">Stock Tip</label><input id="stock-tip"
+                                        type="checkbox"></form>
+                                <br>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table><br>
+                <table id="table-4" width="600px">
+                    <tr>
+                        <td>Pick Date/ Time</td>
+                        <td>
+                            <form id="date"><input id="date" type="datetime-local"></form>
+                        </td>
+                    </tr>
+                </table><br>
+                <table id="table-5 " width="450px">
+                    <tr>
+                        <td>Pickup Place</td>
+                        <td>
+                            <form id="pickup-place"><select>
+                                    <option>Select One</option>
+                                    <option>Airport</option>
+                                    <option>Bus Stop</option>
+                                </select></form>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <table id="table-6" width="620px">
+                    <tr>
+                        <td>Dropoff Place</td>
+                        <td>
+                            <form id="dropoff-place"><input id="dropoff-place" name="dropoff-place" type="text"></form>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <table id="table-7" width="620px">
+                    <tr>
+                        <td>Special Instructions</td>
+                        <td><textarea id="special-instruction" cols="30" rows="3"></textarea></td>
+                    </tr>
+                </table><br>
+                <form id="booking"><input id="booking" type="submit" value="Submit Booking"></form>
+            </div>
+        </main>
+        <footer></footer>
+</body>
+
+</html>
