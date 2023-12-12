@@ -3,28 +3,23 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Tạo bảng đơn giản</title>
+    <title>Thời khóa biểu 1</title>
     <style type="text/css">
-        table {
-            border: 4px groove gray;
-            width: 70%;
-            border-collapse: collapse;
-            margin: auto;
-        }
-
-        th,
-        td {
-            border: 4px groove gray;
-
-            padding: 20px;
-
-        }
-
-        #title {
+        table tr:first-child th {
             background-color: yellow;
         }
 
-        #header {
+        table tr th,
+        td {
+            border: groove;
+
+        }
+
+        table {
+            margin: auto;
+        }
+
+        h1 {
             text-align: center;
         }
     </style>
@@ -36,9 +31,9 @@
         <main>
             <div id="sidebar"></div>
             <div id="content">
-                <h1 id="header"><b>Thời khóa biểu lớp T0908I</b></h1>
-                <table>
-                    <tr id="title">
+                <h1>Thời khóa biểu lớp T0908I</h1>
+                <table border="1" cellspacing="0" width="50%" height="50%">
+                    <tr>
                         <th>Thứ 3</th>
                         <th>Thứ 5</th>
                         <th>Thứ 7</th>

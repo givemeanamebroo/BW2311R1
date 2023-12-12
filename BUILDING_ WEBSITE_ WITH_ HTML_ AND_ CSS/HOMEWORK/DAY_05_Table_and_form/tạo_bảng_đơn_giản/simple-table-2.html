@@ -3,40 +3,36 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <title>Thời khóa biểu 2</title>
     <style type="text/css">
         h1 {
             text-align: center;
-            color: rgb(25, 54, 245);
-        }
-
-        .title {
-            color: rgb(25, 54, 245); margin-left: 20%;font-size: 150%;
-        }
-
-        .title-2 {
-            float: right;color: rgb(25, 54, 245); margin-right: 20%;font-size: 150%;
+            color: blue;
+            font-size: xx-large;
         }
 
         table {
-            border: 3px gray groove;
-            border-collapse: collapse;
-            width: 70%;
-            margin: auto;
+            margin: auto; font-size: x-large;
         }
 
-        td,
-        th {
-            border: 3px gray groove;
-            padding: 20px;
+        table tr:first-child th {
+            background-color: yellow;
         }
 
-        #header-2 {
-            background-color: rgb(245, 182, 62);
+        table tr:nth-child(2) {
+            background-color: orange;
         }
 
-        .header-1 {
-            background-color: rgb(254, 251, 82)
+        p {
+            color: blue;font-size: x-large;
+        }
+
+        .info {
+            margin-left: 30%;
+        }
+
+        kbd {
+            margin-right: 20%;
         }
     </style>
 </head>
@@ -48,17 +44,17 @@
             <div id="sidebar"></div>
             <div id="content">
                 <h1>THỜI KHÓA BIỂU</h1>
-                <kbd class="title">Lớp T0908I</kbd><kbd class="title-2">Thời gian học: 13h30 - 17h30</kbd></p>
-                <kbd class="title">Giáo viên: Khoa NV</kbd><kbd class="title-2">Ngày học: Thứ 3, 5, 7</kbd></p>
-                <kbd class="title">Phòng học: Class3/Lab3</kbd>
-                <table>
+                <p><kbd class="info">Lớp T0908I</kbd><kbd>Thời gian học: 13h30 - 17h30</kbd></p>
+                <p><kbd class="info">Giáo viên: Khoa NV</kbd><kbd>Ngày học: Thứ 3, 5, 7</kbd></p>
+                <p><kbd class="info">Phòng học: Class3/Lab3</kbd></p>
+                <table border="1" cellspacing="0" cellpadding="20px">
                     <tr>
-                        <th colspan="3"></th>
-                        <th class="header-1">Thứ 3</th>
-                        <th class="header-1">Thứ 5</th>
-                        <th class="header-1">Thứ 7</th>
+                        <td colspan="3"></td>
+                        <th>Thứ 3</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 7</th>
                     </tr>
-                    <tr id="header-2">
+                    <tr>
                         <th>Tuần</th>
                         <th>Ngày bắt đầu</th>
                         <th>Ngày kết thúc</th>
