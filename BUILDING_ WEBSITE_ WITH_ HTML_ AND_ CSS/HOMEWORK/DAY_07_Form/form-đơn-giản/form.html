@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form đơn giản</title>
+    <!-- This is the first form css -->
+    <style>
+        h1 {
+            background-color: red;
+            color: white;
+            text-align: center;
+            width: 50%;
+
+        }
+
+        th {
+            color: blue;
+            margin-right: 15px;
+            text-align: right;
+            font-size: x-large;
+        }
+
+
+
+        #button {
+            margin-left: 10%;
+        }
+
+        td {
+            color: orange;
+        }
+    </style>
+    <!-- This is the second form css -->
+    <style>
+        b {
+            margin-right: 30px;
+        }
+
+        #header {
+            color: blue;
+            background-color: wheat;
+        }
+
+        #wrapper {
+            color: darkblue;
+            background-color: blanchedalmond;
+            width: 50%;
+        }
+
+        #submit {
+            margin-left: 10%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- This is the first form -->
+
+    <h1>SỞ THÍCH CỦA BẠN</h1>
+
+    <form action="#" method="post">
+        <table width="40%" cellspacing="20">
+            <tr>
+                <th>Họ và tên</th>
+                <td colspan="3"><input name="fullname" size="35" required></td>
+
+
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td colspan="3"><input type="email" name="email" size="30" placeholder="example@gmail.com" required>
+                </td>
+
+
+            </tr>
+            <tr>
+                <th>Sở thích</th>
+                <td><input type="checkbox" name="hobby" value="sport" checked>Thể thao</td>
+                <td><input type="checkbox" name="hobby" value="music">Âm nhạc</td>
+                <td><input type="checkbox" name="hobby" value="reading">Đọc sách</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby" value="surfing">Lướt web</td>
+                <td><input type="checkbox" name="hobby" value="game" checked>Chơi game</td>
+                <td><input type="checkbox" name="hobby" value="movies">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby" value="travel">Du lịch</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <div id="button">
+            <td> <input type="submit" value="Gửi thông tin" name="submit">
+            <td><input type="reset" value="Nhập lại">
+        </div>
+
+
+
+        <!-- This is the second form -->
+
+        <div id="wrapper">
+            <h2 id="header">ĐĂNG KÝ HỌC VIÊN</h2>
+            <form id="info">
+                <b>Họ và tên</b> <input type="text" name="fullname" required><br><br>
+                <b>Ngày sinh</b> <input type="text" name="birth" required><br><br>
+                <b>Giới tính</b> <input type="radio" name="gender" value="male" checked> Nam <input type="radio"
+                    name="gender" value="female"> Nữ<br><br>
+                <b>Địa chỉ</b> <input type="text" name="address" required><br><br>
+                <b>Lớp</b>
+                <select name="grade">
+                    <option value="choose-grade">--Chọn Lớp--</option>
+                    <option value="grade1"> Lớp 1A </option>
+                    <option value="grade2"> Lớp 2A </option>
+                    <option value="grade3"> Lớp 3A </option>
+                </select><br><br>
+                <b>Email</b> <input type="email" name="email" placeholder="example@gmail.com" required><br><br>
+                <b>Số điện thoại</b> <input type="tel" name="phone" required><br><br>
+                <p id="submit"><input type="submit" value="Đăng ký"> <input type="reset" value="Nhập lại"></p>
+
+            </form>
+            <!-- This is the end of the second form -->
+
+
+</body>
+
+</html>
