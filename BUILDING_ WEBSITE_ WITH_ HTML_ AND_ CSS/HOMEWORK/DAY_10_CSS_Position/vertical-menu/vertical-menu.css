@@ -1,0 +1,40 @@
+  #menu,
+  #menu ul,
+  #menu li {
+      padding: 0;
+      margin: 0;
+
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+  }
+
+  #menu li {
+      background-color: black;
+      width: 175px;
+      padding: 0 20px;
+      line-height: 40px;
+      position: relative;
+      list-style: none;
+      
+      font-size: normal;
+  }
+
+   #menu li:hover {
+      background-color: red;
+  }
+
+  #menu ul  {
+      position: absolute;
+      top: 0;
+      left:215px;
+      visibility: hidden;
+      
+  }
+
+  #menu li:hover ul
+   {
+      visibility: visible;
+  }

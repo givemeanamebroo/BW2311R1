@@ -1,0 +1,54 @@
+#mainmenu {
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+
+
+}
+
+
+
+
+#mainmenu>li {
+    display: inline-block;
+    position: relative;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+}
+
+#mainmenu>li:hover .submenu {
+    visibility: visible;
+}
+
+.submenu {
+    position: absolute;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    padding: 0;
+    list-style-type: none;
+    width: 400px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: aqua;
+
+    font-size: xx-large;
+    line-height: 50px;
+    padding: 0;
+}
+
+#mainmenu li:hover,
+.submenu li:hover {
+    background-color: red;
+}

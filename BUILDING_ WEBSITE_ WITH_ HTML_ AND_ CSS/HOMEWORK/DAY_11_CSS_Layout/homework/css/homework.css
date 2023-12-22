@@ -1,0 +1,81 @@
+/* Applied for all elements */
+html {
+    background-color: #1c1c24;
+    font-family: Verdana, sans-serif
+}
+
+/* This is a header section */
+#header {
+    width: 100%;
+    height: 80px;
+    background: black;
+    padding: 0.5rem;
+}
+
+h1 {
+    color: white;
+
+}
+
+/* This is navbar section */
+#navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #1c1c24;
+    margin-top: 5px;
+    padding: 0.2rem;
+}
+
+#navbar ul li,
+a {
+    display: inline;
+    width: 50%;
+    height: 100%;
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 2rem;
+
+}
+
+
+/* This is content section */
+#content {
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+    background-color: #454548;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+#content h2 {
+    margin-left: 1rem;
+}
+
+#content #box1,
+#box2 {
+    width: 90%;
+    height: 200px;
+    padding: 0.1rem 2rem 1rem;
+    background-color: #1c1c24;
+    margin: auto;
+    font-size: x-large;
+
+
+
+}
+
+#box2 {
+    margin-top: 20px;
+}
+
+
+/* This is footer section */
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 5px;
+    color: aliceblue;
+    padding: 0.2rem;
+}

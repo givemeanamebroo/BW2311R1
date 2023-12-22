@@ -1,0 +1,7 @@
+p {
+    margin: 10px 5px;
+    padding: 20px 10px;
+    border: 20px dashed brown;
+    width: fit-content;
+    background-color: lightskyblue;
+}

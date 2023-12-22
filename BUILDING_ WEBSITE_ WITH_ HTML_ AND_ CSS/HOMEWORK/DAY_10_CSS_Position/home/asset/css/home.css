@@ -1,0 +1,68 @@
+#fix-header {
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: right;
+ 
+
+}
+
+#fix-header li {
+    display: inline-block;
+    padding: 2rem ;
+}
+
+#sub-sidebar {
+    display: inline-block;
+    height: 100%;
+    background-color: #e86d5d;
+    padding: 0;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+
+}
+
+#sub-sidebar li {
+    padding: 3rem 0.2rem;
+
+    text-align: center;
+}
+
+
+
+
+
+
+#fix-header li:hover,
+#sub-sidebar li:hover {
+    background: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    font-size: x-large;
+}
+
+#button {
+    font-size: 300%;
+    
+}
+
+
+
+
+
+img {
+    float: right;
+    width: 60%;
+}
